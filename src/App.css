@@ -1,38 +1,85 @@
-.App {
+body {
+  background: white;
+}
+
+.app_footer {
   text-align: center;
+  margin-top: 45px;
+  font-family: "Lato", helvetica, Arial, Sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Grid{
+  display:grid;
+
+  grid-template-columns: 0px 0px 400px;
+  grid-gap: 0px;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.board {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding: 15px;
+  min-width: 1000px;
+  width: 80%;
+  align-content: strech;
+ 
+
+left: 329px;
+width: 1309px;
+height: 932px;
+/* UI Properties */
+background: #FFFFFF99 0% 0% no-repeat padding-box;
+border: 2px solid #EDEFF2;
+border-radius: 15px;
+opacity: 1;
+margin: 150px 0px 0px 319px;
 }
 
-.App-link {
-  color: #61dafb;
+.board-1{
+display: inline-block;
+z-index: 1;
+top: 115px;
+bottom: 150px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.boardColumn {
+  font-family: "Lato", helvetica, Arial, Sans-serif;
+  flex-basis: 300px;
+  flex-grow: 1;
+  margin: 0 5px;
+}
+.boardColumn .boardColumn__header {
+  padding: 5px;
+  margin-bottom: 10px;
+  border-bottom: 5px solid #f5f5f5;
+}
+.boardColumn .boardColumn__title {
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin: 0;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: normal;
+  margin: 0 5px 0 0;
+  word-wrap: break-word;
+}
+.boardColumn .boardColumn__taskList {
+  background: #f5f5f5;
+  padding: 20px 10px;
+  min-height: 600px;
+  height: 600px;
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.boardColumn.boardColumn--DONE .taskCard {
+  opacity: 0.7;
+}
+.boardColumn.boardColumn--DONE .taskCard .taskCard__title {
+  text-decoration: line-through;
 }

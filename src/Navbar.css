@@ -1,0 +1,102 @@
+#sticky {
+    /* position:fixed; */
+    /* top: 0;
+    width: 100%;
+    text-align: center;
+   margin: 0 0 0 250px; */
+    top: 1px;
+    /* left: 277px; */
+    width: 1643px;
+    height: 115px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    left: 300px !important;
+    
+
+  }
+
+  .icon{
+     top: 5px;
+    left: 850px; 
+    width: 25px;
+    height: 24px;
+    /* UI Properties */
+    background-image: transparent url('') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+
+  .layout{
+    text-align: center;
+  }
+
+  .icon1{
+    top: 5px;
+    left: 800px;
+    width: 26px;
+    height: 26px;
+    /* UI Properties */
+    background: transparent url('') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+
+  .icon2{
+    top: 5px;
+    left: 900px;
+    width: 27px;
+    height: 22px;
+    /* UI Properties */
+    background: transparent url('') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  .icon3{
+    top: 5px;
+    left: 950px;
+    width: 23px;
+    height: 23px;
+    /* UI Properties */
+    background: transparent url('') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+
+  .icon4{
+    top: 5px;
+    left: 1000px;
+    width: 18px;
+    height: 23px;
+    /* UI Properties */
+    background: transparent url('') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+
+  .icon5{
+      /* Layout Properties */
+top: 5px;
+left: 1050px;
+width: 22px;
+height: 22px;
+/* UI Properties */
+background: transparent url('') 0% 0% no-repeat padding-box;
+opacity: 1;
+  }
+
+.group{
+  top: 5px;
+left: 40px;
+width: 96px;
+height: 71px;
+/* UI Properties */
+background: transparent url('') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.text{
+  top: 5px;
+  left: 70px;
+  width: 96px;
+  height: 71px;
+  /* UI Properties */
+  background:  url('') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
